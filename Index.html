@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sitio Web Multilenguaje</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">Juan Otero</h1>
+      <nav class="menu">
+        <a class="menu-item" href="#" data-section="header" data-value="about-me">Sobre mi</a>
+        <a class="menu-item" href="#" data-section="header" data-value="experience"> Experiencia</a>
+      </nav>
+      <div class="languages">
+        <button class="lang-button" data-language="esp">
+          <span role="img" aria-label="Bandera de España">ES</span>
+        </button>
+        <button class="lang-button" data-language="eng">
+          <span role="img" aria-label="Bandera de Gran Bretaña">GB</span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="section" id="about-me">
+        <h2 data-section="about-me" data-value="title">Sobre mi</h2>
+        <p data-section="about-me" data-value="text">
+          Me apasiona la creación de experiencias digitales. Con conocimientos
+          en HTML, CSS Y JavaScript, estoy comprometido a aprender y crecer en
+          el campo de la programación front-end. Mi objetivo actual es formar
+          parte de un entorno dinámico donde pueda aplicar mis habilidades para
+          desarrollar interfaces de usuario intuitivas y atractivas, colaborar
+          con profesionales y aprender de mentores experimentados
+        </p>
+      </section>
+      <section class="section" id="experience">
+        <h2 data-section="experience" data-value="title">Experiencia</h2>
+        <p data-section="experience" data-value="text">
+          GOIRI JOYAS E-COMMERCE: Usando React.Js he creado esta interfaz de
+          usuario para el e-commerce de Goiri Joyas, esta interfaz permite
+          visualizar los productos que se están comprando, así como también la
+          cantidad que se esta comprando de cada producto. La interfaz tambien
+          cuenta con un carrito de copra que indica el valor de cada producto y
+          el valor de la compra en total.
+        </p>
+        <p>
+          MENU HAMBURGUESAS E-COMMERCE: Usando HTL, CSS Y Javascript he ecreado
+          esta interfaz de usuario para el e-commerce de Smashed Babys. Esta
+          interfaz permite visualizar los productos que disponibles para
+          comprar, asi como también viene con un carrito de compra incorporado
+          que permite modificar la cantidad de productos comprados y también
+          muestra el valor total a pagar por la compra.
+        </p>
+      </section>
+    </main>
+    <footer class="footer">Otero Juan</footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

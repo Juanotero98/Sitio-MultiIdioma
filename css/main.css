@@ -1,0 +1,51 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: system-ui, sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    min-height: 100dvh;
+    font-family: 'Segoe UI', 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', sans-serif;
+}
+
+.header{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+
+.logo{
+    display: flex;
+    gap: .5rem;
+}
+
+.languages{
+    display: flex;
+    gap: .5rem;
+}
+
+.lang-button{
+    background-color: transparent;
+    font-size: 1.25rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.section{
+    padding-inline: 2rem;
+    margin-top: 2rem;
+}
+
+.footer{
+    background-color: aquamarine;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}

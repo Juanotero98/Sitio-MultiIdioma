@@ -1,0 +1,15 @@
+{
+  "header": {
+    "about-me": "About me",
+    "experience": "Experience"
+  },
+  "about-me": { 
+    "title": "About me",
+    "text": "I am passionate about creating digital experiences. With knowledge in HTML, CSS, and JavaScript, I am committed to learning and growing in the field of front-end development. My current goal is to be part of a dynamic environment where I can apply my skills to develop intuitive and engaging user interfaces, collaborate with professionals, and learn from experienced mentors."
+  },
+  "experience": {
+    "title": "Experience",
+    "text": "GOIRI JEWELRY E-COMMERCE: Using React.js, I have created this user interface for the Goiri Jewelry e-commerce site. This interface allows users to view the products they are purchasing, as well as the quantity of each product. The interface also includes a shopping cart that displays the value of each product and the total purchase amount. HAMBURGER MENU E-COMMERCE: Using HTML, CSS, and JavaScript, I have created this user interface for the Smashed Babys e-commerce site. This interface allows users to view the products available for purchase and includes a built-in shopping cart that lets users modify the quantity of purchased products and displays the total purchase amount."
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "header": {
+    "about-me": "Sobre mi",
+    "experience": "Experiencia"
+  },
+  "about-me": {
+    "title": "Sobre mi",
+    "text": "Me apasiona la creacion de experiencias digitales. Con conocimientos en HTML, CSS y JavaScript, estoy comprometudo a aprender y crecer en el campo de la programacion front-end. Mi objetivo actual es formar parte de un entorno dinamico donde pueda aplicar mis habilidades para desarrollar interfaces de usuario intuitivas y atractivas, colaborar con profesionales y aprender de mentores experimentados"
+  },
+  "experience":{
+    "title": "Experiencia",
+    "text":"GOIRI JOYAS E-COMMERCE: Usando React.Js he creado esta interfaz de usuario para el e-commerce de Goiri Joyas, esta interfaz permite visualizar los productos que se están comprando, así como también la cantidad que se esta comprando de cada producto. La interfaz tambien cuenta con un carrito de copra que indica el valor de cada producto y el valor de la compra en total. MENU HAMBURGUESAS E-COMMERCE: Usando HTL, CSS Y Javascript he ecreado esta interfaz de usuario para el e-commerce de Smashed Babys. Esta interfaz permite visualizar los productos que disponibles para comprar, asi como también viene con un carrito de compra incorporado que permite modificar la cantidad de productos comprados y también muestra el valor total a pagar por la compra."
+  }
+}
